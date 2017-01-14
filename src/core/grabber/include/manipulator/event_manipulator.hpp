@@ -159,6 +159,18 @@ public:
         case krbn::key_code::up_arrow:
           key_code = krbn::key_code::page_up;
           break;
+        case krbn::key_code::h:
+          key_code = krbn::key_code::left_arrow;
+          break;
+        case krbn::key_code::j:
+          key_code = krbn::key_code::down_arrow;
+          break;
+        case krbn::key_code::k:
+          key_code = krbn::key_code::up_arrow;
+          break;
+        case krbn::key_code::l:
+          key_code = krbn::key_code::right_arrow;
+          break;
         default:
           break;
         }
