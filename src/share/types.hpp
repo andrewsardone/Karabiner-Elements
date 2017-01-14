@@ -128,6 +128,12 @@ enum class key_code : uint32_t {
   apple_display_brightness_increment,
   apple_top_case_display_brightness_decrement,
   apple_top_case_display_brightness_increment,
+
+  // Entries for simple hjkl keys, but handy because they are vi navigation keys
+  h = kHIDUsage_KeyboardH,
+  j = kHIDUsage_KeyboardJ,
+  k = kHIDUsage_KeyboardK,
+  l = kHIDUsage_KeyboardL,
 };
 
 enum class pointing_button : uint32_t {
